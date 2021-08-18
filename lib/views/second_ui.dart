@@ -28,6 +28,16 @@ class SecondUI extends StatelessWidget {
           ),
         ],
       ),
+      body: Center(
+        child: Text(
+          'My Profile',
+          style: TextStyle(
+            fontSize: 40.0,
+            fontWeight: FontWeight.bold,
+            color: Colors.amber,
+          ),
+        ),
+      ),
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
@@ -62,6 +72,7 @@ class SecondUI extends StatelessWidget {
               ),
             ),
             ListTile(
+              onTap: (){},
               title: Text(
                 'menu 1 ....',
                 style: TextStyle(
@@ -70,6 +81,7 @@ class SecondUI extends StatelessWidget {
               ),
             ),
             ListTile(
+              onTap: (){},
               title: Text(
                 'menu 2 ....',
                 style: TextStyle(
@@ -81,6 +93,7 @@ class SecondUI extends StatelessWidget {
               ),
             ),
             ListTile(
+              onTap: (){},
               title: Text(
                 'menu 3 ....',
                 style: TextStyle(
@@ -102,6 +115,7 @@ class SecondUI extends StatelessWidget {
               color: Colors.deepOrange[200],
             ),
             ListTile(
+              onTap: (){},
               title: Text(
                 'menu 4 ....',
                 style: TextStyle(
@@ -118,6 +132,7 @@ class SecondUI extends StatelessWidget {
               color: Colors.blue,
             ),
             ListTile(
+              onTap: (){},
               title: Text(
                 'จบการทำงาน',
                 style: TextStyle(
